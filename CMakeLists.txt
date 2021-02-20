@@ -43,7 +43,7 @@ set( sources
     ${source_dir}/pngwutil.c
 )
 
-find_package( zlib REQUIRED )
+find_package(ZLIB REQUIRED)
 
 # If you want a shared library instead of static, specify the BUILD_SHARED_LIBS
 # variable (which is a built-in CMake option).
